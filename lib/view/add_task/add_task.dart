@@ -18,7 +18,7 @@ class AddTask extends HookWidget {
     final titleController = useTextEditingController();
     final descriptionController = useTextEditingController();
     final task = useState(TaskModel());
-    final _formKey = GlobalKey<FormState>(); // Form key for validation
+    final _formKey = GlobalKey<FormState>();
 
     return Padding(
       padding: EdgeInsets.only(left: 20, right: 20, top: 30),
